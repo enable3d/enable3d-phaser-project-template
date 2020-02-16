@@ -48,6 +48,7 @@
     "workbox-webpack-plugin": "^4.3.1"
   },
   "dependencies": {
+    "enable3d": "0.0.14",
     "phaser": "^3.22.0"
   }
 }
