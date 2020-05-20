@@ -6,12 +6,10 @@ export default class MainScene extends Scene3D {
   }
 
   init() {
-    this.requestThirdDimension()
+    this.accessThirdDimension()
   }
 
   create() {
-    this.accessThirdDimension()
-
     // adjust width and height
     this.third.renderer.setSize(1280, 720)
     // @ts-ignore
