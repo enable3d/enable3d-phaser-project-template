@@ -5,7 +5,7 @@ import PreloadScene from './scenes/preloadScene'
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.WEBGL,
-  backgroundColor: '#ffffff',
+  transparent: true,
   scale: {
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,

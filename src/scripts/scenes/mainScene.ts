@@ -10,17 +10,16 @@ export default class MainScene extends Scene3D {
   }
 
   create() {
-    // adjust width and height
-    this.third.renderer.setSize(1280, 720)
-    // @ts-ignore
-    this.third.camera.aspect = 1280 / 720
-    this.third.camera.updateProjectionMatrix()
-
+    // creates a nice scene
     this.third.warpSpeed()
 
+    // adds a box
     this.third.add.box({ x: 1, y: 2 })
+
+    // adds a box with physics
     this.third.physics.add.box({ x: -1, y: 2 })
 
+    // throws some random object on the scene
     this.third.haveSomeFun()
   }
 

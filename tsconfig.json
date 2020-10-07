@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
     "strict": true,
     "noImplicitAny": false,
@@ -8,6 +8,6 @@
     "allowUnreachableCode": false,
     "sourceMap": true,
     "strictPropertyInitialization": false,
-    "lib": ["dom", "es5", "esnext"]
+    "lib": ["dom", "es6", "esnext"]
   }
 }
