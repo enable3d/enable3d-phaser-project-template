@@ -12,7 +12,7 @@ This is a clone of the popular [phaser-project-template](https://github.com/yand
 
 ```console
 # Clone this repository
-$ git clone --depth 1 https://github.com/yandeu/enable3d-project-template.git enable3d-game
+$ git clone --depth 1 https://github.com/enable3d/enable3d-phaser-project-template.git enable3d-game
 
 # Go into the repository
 $ cd enable3d-game
