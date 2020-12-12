@@ -27,3 +27,10 @@ $ npm start
 # Build the production ready code to the /dist folder
 $ npm run build
 ```
+
+## JavaScript
+
+You want to use JavaScript instead of TypeScript?
+
+- Add `"checkJs": false,` to [tsconfig.json](./tsconfig.json)
+- Change the extension of all game files in [/src/scripts](./src/scripts) from `.ts` to `.js`.
