@@ -33,4 +33,4 @@ $ npm run build
 You want to use JavaScript instead of TypeScript?
 
 - Add `"checkJs": false,` to [tsconfig.json](./tsconfig.json)
-- Change the extension of all game files in [/src/scripts](./src/scripts) from `.ts` to `.js`.
+- Change the extension of all game files in [/src/scripts](./src/scripts) from `.ts` to `.js` (except `game.ts`).
