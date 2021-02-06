@@ -31,12 +31,12 @@
     "author": "Yannick Deubel (https://github.com/yandeu)"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
   },
   "license": "MIT",
   "dependencies": {
-    "@enable3d/phaser-extension": "~0.20.0",
-    "phaser": "~3.24.1"
+    "@enable3d/phaser-extension": "^0.21.0",
+    "phaser": "^3.52.0"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
@@ -44,9 +44,9 @@
     "html-webpack-plugin": "^3.2.0",
     "ts-loader": "^5.4.5",
     "typescript": "^3.9.7",
-    "webpack": "^4.44.2",
+    "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0",
+    "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^4.2.2",
     "webpack-obfuscator": "^0.28.5",
     "workbox-webpack-plugin": "^4.3.1"
