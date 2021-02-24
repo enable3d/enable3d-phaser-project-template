@@ -35,8 +35,10 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@enable3d/phaser-extension": "0.22.0-dev.0",
+    "@enable3d/phaser-extension": "0.22.0-dev.1",
+    "matter-js": "0.16.1",
     "phaser": "3.52.0",
+    "poly-decomp": "^0.3.0",
     "three": "0.125.2"
   },
   "devDependencies": {
