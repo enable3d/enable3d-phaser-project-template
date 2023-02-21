@@ -5,7 +5,7 @@
   "homepage": "https://github.com/yandeu/phaser-project-template#readme",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack/webpack.dev.js",
+    "start": "webpack serve --config webpack/webpack.dev.js",
     "build": "webpack --config webpack/webpack.prod.js",
     "serve": "serve dist"
   },
@@ -36,24 +36,25 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@enable3d/phaser-extension": "0.22.0",
-    "matter-js": "0.16.1",
-    "phaser": "3.52.0",
+    "@enable3d/phaser-extension": "0.25.3",
+    "matter-js": "0.19.0",
+    "phaser": "3.55.2",
     "poly-decomp": "^0.3.0",
-    "three": "0.127.0"
+    "three": "0.149.0"
   },
   "devDependencies": {
-    "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^5.1.2",
-    "html-webpack-plugin": "^3.2.0",
-    "serve": "^11.3.2",
-    "ts-loader": "^5.4.5",
-    "typescript": "^3.9.7",
-    "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.2",
+    "serve": "^14.2.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
     "webpack-merge": "^4.2.2",
-    "webpack-obfuscator": "^0.28.5",
-    "workbox-webpack-plugin": "^4.3.1"
+    "webpack-obfuscator": "^3.5.1",
+    "webpack-dev-server": "^4.11.1",
+    "workbox-webpack-plugin": "^4.3.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^5.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "@types/node": "^18.14.0"
   }
 }
