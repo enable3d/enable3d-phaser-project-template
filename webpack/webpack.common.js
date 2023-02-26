@@ -19,7 +19,7 @@ module.exports = {
   optimization: {
     splitChunks: {
       cacheGroups: {
-        commons: {
+        defaultVendors: {
           test: /[\\/]node_modules[\\/]/,
           name: 'vendors',
           chunks: 'all',
@@ -30,13 +30,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ gameName: 'My Phaser Game', template: 'src/index.html' }),
-    new CopyWebpackPlugin([
+    new CopyWebpackPlugin({
+      patterns: [
       { from: 'src/assets', to: 'assets' },
       { from: 'pwa', to: '' },
       { from: 'src/favicon.ico', to: '' }
-    ]),
-    new InjectManifest({
-      swSrc: path.resolve(__dirname, '../pwa/sw.js')
-    })
+    ]})
   ]
 }

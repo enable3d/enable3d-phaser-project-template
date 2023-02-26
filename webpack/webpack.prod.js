@@ -1,5 +1,5 @@
 const path = require('path')
-const merge = require('webpack-merge')
+const {merge} = require('webpack-merge')
 const common = require('./webpack.common')
 const JavaScriptObfuscator = require('webpack-obfuscator')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')

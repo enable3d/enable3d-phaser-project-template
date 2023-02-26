@@ -36,24 +36,24 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@enable3d/phaser-extension": "0.25.3",
-    "matter-js": "0.19.0",
-    "phaser": "3.55.2",
+    "@enable3d/phaser-extension": "^0.25.3",
+    "matter-js": "^0.19.0",
+    "phaser": "^3.55.2",
     "poly-decomp": "^0.3.0",
-    "three": "0.149.0"
+    "three": "^0.144.0"
   },
   "devDependencies": {
     "serve": "^14.2.0",
     "ts-loader": "^9.4.2",
     "typescript": "^4.9.5",
-    "webpack": "^5.75.0",
+    "webpack": "^5.0.0",
     "webpack-cli": "^5.0.1",
-    "webpack-merge": "^4.2.2",
+    "webpack-merge": "^5.8.0",
     "webpack-obfuscator": "^3.5.1",
     "webpack-dev-server": "^4.11.1",
-    "workbox-webpack-plugin": "^4.3.1",
+    "workbox-webpack-plugin": "^6.5.4",
     "clean-webpack-plugin": "^4.0.0",
-    "copy-webpack-plugin": "^5.1.2",
+    "copy-webpack-plugin": "^11.0.0",
     "html-webpack-plugin": "^5.5.0",
     "@types/node": "^18.14.0"
   }
